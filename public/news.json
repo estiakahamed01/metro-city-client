@@ -1,0 +1,149 @@
+[
+  {
+    "title": "Global Economy Shows Signs of Recovery",
+    "image": "https://i.ibb.co/q6n6qH3/A.jpg",
+    "publisher": "The Financial Times",
+    "tags": ["Business"],
+    "description": "The global economy is rebounding faster than expected, with growth led by emerging markets."
+  },
+  {
+    "title": "Champions League Final Ends in Thriller",
+    "image": "https://i.ibb.co/N2srhgGs/images-2.jpg",
+    "publisher": "Sports Weekly",
+    "tags": ["Sports"],
+    "description": "An epic clash in the UEFA Champions League left fans on the edge of their seats."
+  },
+  {
+    "title": "Oscar Winners 2025: Complete List",
+    "image": "https://i.ibb.co/tP2sTHP7/U3-OQ4-OJ26-NISPH7-E55-CNCSGQUU.jpg",
+    "publisher": "Hollywood Buzz",
+    "tags": ["Entertainment"],
+    "description": "The Oscars 2025 celebrated the best in film with surprises and heartfelt speeches."
+  },
+  {
+    "title": "AI Startups Disrupt Traditional Business Models",
+    "image": "https://i.ibb.co/dJ3jNMVK/download.jpg",
+    "publisher": "TechCrunch",
+    "tags": ["Tech & Startup"],
+    "description": "Innovative AI startups are transforming industries and redefining the way we work."
+  },
+  {
+    "title": "Book Review: 'The Silent Observer'",
+    "image": "https://i.ibb.co/YGCrr7K/tv-banner.png",
+    "publisher": "Literary World",
+    "tags": ["Books & Literature"],
+    "description": "A gripping psychological thriller that delves into the complexities of the human mind."
+  },
+  {
+    "title": "UN Climate Summit Pushes for Urgent Action",
+    "image": "https://i.ibb.co/7dhJyX7J/download-1.jpg",
+    "publisher": "EcoTimes",
+    "tags": ["Environment"],
+    "description": "Leaders call for immediate environmental action during the UN Climate Summit."
+  },
+  {
+    "title": "Stock Markets Rally Amid Inflation Concerns",
+    "image": "https://i.ibb.co/cK7N19rb/images.jpg",
+    "publisher": "Market Watch",
+    "tags": ["Business"],
+    "description": "Despite inflation fears, global stock markets experienced strong gains this week."
+  },
+  {
+    "title": "Olympic Records Shattered in Tokyo",
+    "image": "https://i.ibb.co/vxkMfK20/202575-qxglmoctov-1722707373.jpg",
+    "publisher": "The Global Sport",
+    "tags": ["Sports"],
+    "description": "Athletes broke records and inspired millions during the Olympic Games in Tokyo."
+  },
+  {
+    "title": "Streaming Wars: Who's Winning?",
+    "image": "https://i.ibb.co/S7WCFY6y/stateofstreaming-streamingwars-graph-1663988345333.jpg",
+    "publisher": "Daily Screen",
+    "tags": ["Entertainment"],
+    "description": "The competition among streaming services intensifies as they fight for subscribers."
+  },
+  {
+    "title": "5 Tech Trends to Watch in 2025",
+    "image": "https://i.ibb.co/20Gj1Csn/3-ai-trism-6c76c9cd8c.jpg",
+    "publisher": "NextGen Tech",
+    "tags": ["Tech & Startup"],
+    "description": "From quantum computing to decentralized apps, here's what's shaping the future."
+  },
+  {
+    "title": "The Return of Print: Indie Bookstores Flourish",
+    "image": "https://i.ibb.co/gZv0bN0Z/images-4.jpg",
+    "publisher": "BookBeat",
+    "tags": ["Books & Literature"],
+    "description": "Independent bookstores are seeing a resurgence thanks to community support and curated collections."
+  },
+  {
+    "title": "Coral Reefs Face Extinction Threat",
+    "image": "https://i.ibb.co/tTSNk75X/images-5.jpg",
+    "publisher": "Green Earth",
+    "tags": ["Environment"],
+    "description": "Marine biologists warn that coral reefs may vanish without urgent intervention."
+  },
+  {
+    "title": "Global Mergers Hit All-Time High",
+    "image": "https://i.ibb.co/TqwJC6X8/c.jpg",
+    "publisher": "Economy Now",
+    "tags": ["Business"],
+    "description": "Cross-border mergers and acquisitions reach a record high in the first quarter of 2025."
+  },
+  {
+    "title": "Women Dominate at World Athletics Championship",
+    "image": "https://i.ibb.co/xKgQkFHX/6824a7c34349ba6494cab0cd.jpg",
+    "publisher": "Athletics Digest",
+    "tags": ["Sports"],
+    "description": "Female athletes claimed victory across multiple events, setting new records along the way."
+  },
+  {
+    "title": "Sci-Fi Movies Are Back in Fashion",
+    "image": "https://i.ibb.co/TMMKgChX/The-Influence-of-Sci-Fi-Movies-on-Fashion-Exploring-Futuristic-Trends.jpg",
+    "publisher": "Cinema Central",
+    "tags": ["Entertainment"],
+    "description": "A wave of new science fiction films is capturing audiences' imaginations worldwide."
+  },
+  {
+    "title": "Startup Raises $100M to Revolutionize EdTech",
+    "image": "https://i.ibb.co/WWv5mGTP/edtech-market-1024x595.jpg",
+    "publisher": "Startup Pulse",
+    "tags": ["Tech & Startup"],
+    "description": "A new education technology company just secured major funding for AI-powered learning tools."
+  },
+  {
+    "title": "Top 10 Books of the Year So Far",
+    "image": "https://i.ibb.co/wZ0hvGMP/copy-of-copy-of-untitled-design-2-custom-8ddb5dd368773b8f0a8903090cf491d058e55a3d.jpg",
+    "publisher": "Readers' Choice",
+    "tags": ["Books & Literature"],
+    "description": "Our editors pick the most compelling reads that have captivated audiences in 2025."
+  },
+  {
+    "title": "Plastic Waste Crisis Worsens in Oceans",
+    "image": "https://i.ibb.co/vvPgkZ3D/download-2.jpg",
+    "publisher": "Blue Planet News",
+    "tags": ["Environment"],
+    "description": "New reports show oceanic plastic pollution reaching critical levels across continents."
+  },
+  {
+    "title": "Wall Street Braces for Interest Rate Hike",
+    "image": "https://i.ibb.co/KpjxMb03/images-1.jpg",
+    "publisher": "Biz Journal",
+    "tags": ["Business"],
+    "description": "Investors remain cautious as central banks signal potential increases in interest rates."
+  },
+  {
+    "title": "Tech Startups Fight Cybersecurity Threats",
+    "image": "https://i.ibb.co/4RbLGNw5/images-3.jpg",
+    "publisher": "CyberSec Report",
+    "tags": ["Tech & Startup"],
+    "description": "Emerging cybersecurity firms are taking bold steps to protect users in a digital world."
+  },
+  {
+    "title": "Rainforest Destruction Accelerates, Says WWF",
+    "image": "https://i.ibb.co/B5SCCNt1/09134203-4222e05b-90b0-4d3c-a8e4-cf8b5dd0f197.jpg",
+    "publisher": "Nature Watch",
+    "tags": ["Environment"],
+    "description": "WWF issues urgent warning over increased deforestation in the Amazon and Southeast Asia."
+  }
+]
