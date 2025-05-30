@@ -1,13 +1,17 @@
+import { Link } from 'react-router-dom';
 import logo from '../../assets/Logo.png'
 
 const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/"><a>Home</a></Link>
       </li>
       <li>
-        <a>Add Articles</a>
+        <Link to="/allArticles"><a>All Articles</a></Link>
+      </li>
+      <li>
+        <Link to="/addArticle"><a>Add Articles</a></Link>
       </li>
       <li>
         <a>Subscription</a>
