@@ -1,30 +1,40 @@
-import { Link } from 'react-router-dom';
-import logo from '../../assets/Logo.png'
+import { Link } from "react-router-dom";
+import logo from "../../assets/Logo.png";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
+import Swal from "sweetalert2";
 
 const Navbar = () => {
+  const { user, logOut } = useContext(AuthContext);
+  const handleLogOut = () => {
+    logOut()
+      .then(() => {
+         Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Log Out successfully.',
+                        showConfirmButton: false,
+                        timer: 1500
+                    });
+
+                })
+      .catch((error) => console.log(error));
+  };
   const navLinks = (
     <>
       <li>
-        <Link to="/"><a>Home</a></Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/allArticles"><a>All Articles</a></Link>
+        <Link to="/allArticles">All Articles</Link>
       </li>
       <li>
-        <Link to="/addArticle"><a>Add Articles</a></Link>
+        <Link to="/addArticle">Add Articles</Link>
       </li>
-      <li>
-        <a>Subscription</a>
-      </li>
-      <li>
-        <a>Dashboard</a>
-      </li>
-      <li>
-        <a>My Articles</a>
-      </li>
-      <li>
-        <a>Premium Articles</a>
-      </li>
+      <li>Subscription</li>
+      <li>Dashboard</li>
+      <li>My Articles</li>
+      <li>Premium Articles</li>
     </>
   );
   return (
@@ -56,13 +66,25 @@ const Navbar = () => {
               {navLinks}
             </ul>
           </div>
-          <img className='w-32' src={logo} alt="" />
+          <img className="w-32" src={logo} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          {user ? (
+            <>
+              <button onClick={handleLogOut} className="btn">
+                Logout
+              </button>
+            </>
+          ) : (
+            <>
+              <Link to="/signIn">
+                <button className="btn">Sign In</button>
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </div>
