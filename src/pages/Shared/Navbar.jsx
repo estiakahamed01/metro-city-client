@@ -21,7 +21,7 @@ const Navbar = () => {
       .catch((error) => console.log(error));
   };
   const navLinks = (
-    <>
+    <div className="flex flex-row justify-center items-center space-x-5">
       <li>
         <Link to="/">Home</Link>
       </li>
@@ -35,7 +35,7 @@ const Navbar = () => {
       <li>Dashboard</li>
       <li>My Articles</li>
       <li>Premium Articles</li>
-    </>
+    </div>
   );
   return (
     <div>
