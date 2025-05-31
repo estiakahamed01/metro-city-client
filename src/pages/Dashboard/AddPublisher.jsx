@@ -1,7 +1,9 @@
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
+
 const AddPublisher = () => {
     return (
         <div>
-            <h2>Add Publisher</h2>
+            <SectionTitle liteHeading={"Add Publisher"}></SectionTitle>
         </div>
     );
 };

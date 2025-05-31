@@ -3,11 +3,13 @@ import { AuthContext } from "../../providers/AuthProvider";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import { FcGoogle } from "react-icons/fc";
+import useAxiosPublic from "../../hook/useAxiosPublic";
 
 const SignIn = () => {
   const { signIn, singInWithGoogle } = useContext(AuthContext);
   const navigate = useNavigate();
   const location = useLocation();
+  const axiosPublic = useAxiosPublic();
   const from = location.state?.from?.pathname || "/";
 
   const handleLogin = (event) => {
@@ -34,11 +36,18 @@ const SignIn = () => {
 
   const handleGoogleSignIn = () => {
       singInWithGoogle()
-        .then((result) => {
-          console.log(result.user);
-          navigate(from);
+        .then(result =>{
+            console.log(result.user);
+            const userInfo = {
+                email: result.user?.email,
+                name: result.user?.displayName
+            }
+            axiosPublic.post('/users', userInfo)
+            .then(res =>{
+                console.log(res.data);
+                navigate('/');
+            })
         })
-        .catch((error) => console.log("ERROR", error.message));
     };
   return (
     <div className="hero bg-base-200 pt-40">

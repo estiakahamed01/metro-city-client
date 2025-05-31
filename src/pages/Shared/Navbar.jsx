@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import logo from "../../assets/Logo.png";
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
+  const isAdmin = true;
   const handleLogOut = () => {
     logOut()
       .then(() => {
@@ -22,19 +23,39 @@ const Navbar = () => {
   };
   const navLinks = (
     <div className="flex flex-row justify-center items-center space-x-5">
-      <li>
-        <Link to="/">Home</Link>
+      {
+        isAdmin ? 
+        <>
+        <li>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <Link to="/allArticles">All Articles</Link>
+        <NavLink to="dashboard/allUsers">All Users</NavLink>
       </li>
       <li>
-        <Link to="/addArticle">Add Articles</Link>
+        <NavLink to="dashboard/adminAllArticles">All Articles</NavLink>
+      </li>
+      <li>
+        <NavLink to="dashboard/addPublishers">Add Publishers</NavLink>
+      </li>
+        </> : 
+        
+        <>
+        <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/allArticles">All Articles</NavLink>
+      </li>
+      <li>
+        <NavLink to="/addArticle">Add Articles</NavLink>
       </li>
       <li>Subscription</li>
       <li>Dashboard</li>
       <li>My Articles</li>
       <li>Premium Articles</li>
+        </>
+      }
     </div>
   );
   return (

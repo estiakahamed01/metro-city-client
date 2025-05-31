@@ -1,7 +1,9 @@
+import SectionTitle from "../../components/SectionTitle/SectionTitle";
+
 const AllArticlesAdmin = () => {
     return (
         <div>
-            <h2>All Articles Admin</h2>
+            <SectionTitle liteHeading={"All Articles"}></SectionTitle>
         </div>
     );
 };
